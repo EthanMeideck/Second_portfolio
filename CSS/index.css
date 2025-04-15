@@ -1,0 +1,165 @@
+body {
+    font-family: "Roboto";
+}
+
+.fond {
+    background: linear-gradient(to right, #0055aa, #6600cc);
+}
+
+header {
+    border-bottom: 1.5px solid grey;
+}
+
+#signature {
+    width: 100px;
+    justify-content: start;
+}
+
+.menu {
+    display: flex; /*  Mise à l'horizontal*/
+    padding: 0;
+    gap: 40px; /*  Espace entre les balises*/
+    justify-content: flex-end;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu li {
+    list-style-type: none; /* Suppression des puces */
+}
+
+.menu a {
+    color: white;
+    display: block;
+    min-width: 50px;
+    font-size: x-large;
+}
+
+.menu a:hover {
+    color: aqua;
+}
+
+.menu .logo {
+    margin-right: auto;
+}
+
+#saut_separateur {
+    display: block;
+    margin-bottom: 30px;
+}
+
+#saut_menu {
+    display: block;
+    margin-top: 60px;
+}
+
+.contenu {
+    min-height: 80vh; /* Taille min => 80% du navigateur*/
+}
+
+#nom{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#metier {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#saut_presentation {
+    display: block;
+    margin-top: 60px;
+}
+
+#photo-pro {
+    width: 180px;
+    margin-right: 30px;
+    border: 5px solid #383838;
+}
+
+.presentation {
+    display: flex; 
+    margin-left: 100px;
+    margin-right: 400px;
+}
+
+.presentation p {
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+#presentation-bouton {
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 40px;
+    background: #e1e1e1;
+    border: 2px solid #BF00FF;
+    color: #BF00FF;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer; /* Affiche une main au moment du survol */
+    transition: all 0.3s ease; /* Crée une transition au moment du survol*/
+}
+
+#presentation-bouton:hover {
+    color: white;
+    background: #BF00FF;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1.5px solid grey;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+small li {
+    list-style-type: none;
+    height: 20px;
+}
+
+small a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+small a:hover {
+    color: aqua;
+}
+
+.footer_icons {
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+#github-icon {
+    width: 40px;
+    border: 3.5px solid white;
+    border-radius: 40px;
+}
+
+#linkedin-icon {
+    width: 40px;
+    border: 3.5px solid white;
+    border-radius: 40px;
+}
+
+#copyright {
+    color: white;
+}
