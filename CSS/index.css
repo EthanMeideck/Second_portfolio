@@ -31,8 +31,13 @@ header {
 .menu a {
     color: white;
     display: block;
+    text-decoration: none;
     min-width: 50px;
     font-size: x-large;
+}
+
+.menu #accueil {
+    text-decoration: underline;
 }
 
 .menu a:hover {
@@ -136,6 +141,16 @@ small a {
     text-decoration: none;
     color: white;
     font-size: 16px;
+}
+
+#li-fast-nav {
+    margin-bottom: 10px;
+}
+
+#fast-nav {
+    font-size: 18px;
+    color: white;
+    text-decoration: underline;
 }
 
 small a:hover {
