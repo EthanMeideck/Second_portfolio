@@ -20,6 +20,7 @@ header {
 }
 
 .menu {
+    position: relative;
     display: flex; /*  Mise à l'horizontal*/
     padding: 0;
     gap: 40px; /*  Espace entre les balises*/
@@ -52,7 +53,22 @@ header {
     margin-right: auto;
 }
 
+.menu .a-propos_sous_menu {
+    display: none;
+    position: absolute;
+    text-align: start;
+}
+
+.menu .a-propos_sous_menu a {
+    font-size: 16px;
+}
+
+.menu .a-propos_sous_menu li:hover ul {
+    display: block;
+}
+
 /* Contenu de la page */
+
 
 
 /* Footer */
