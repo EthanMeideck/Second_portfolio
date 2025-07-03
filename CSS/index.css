@@ -64,8 +64,10 @@ header {
     margin-top: 60px;
 }
 
-.contenu {
-    min-height: 80vh; /* Taille min => 80% du navigateur*/
+/* Intro */
+
+.Intro {
+    min-height: 100vh; /* Taille min => 80% du navigateur*/
 }
 
 #nom{
@@ -126,6 +128,11 @@ header {
 #presentation-bouton:hover {
     color: white;
     background: #BF00FF;
+}
+
+/* Projets */
+.Projets_developpement {
+    width: 100vh;
 }
 
 /* Footer */
